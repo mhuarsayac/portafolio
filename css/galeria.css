@@ -1,0 +1,67 @@
+#galeria {
+    padding: 60px 0;
+    background: #0d0d0d;
+}
+
+.galeria-titulo {
+    text-align: center;
+    font-size: 36px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.galeria-titulo span {
+    color: #00e5ff;
+}
+
+.galeria {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.proyecto {
+    width: 280px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 16px;
+    border: 1px solid #1e1e30;
+}
+
+.proyecto img {
+    width: 100%;
+    display: block;
+    height: 200px;
+    object-fit: cover;
+}
+
+.proyecto-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 229, 255, 0.88);
+    color: #000;
+    text-align: center;
+    padding: 60px 16px 16px;
+    transform: translateX(-100%);
+    transition: 0.4s ease-out;
+}
+
+.proyecto:hover .proyecto-overlay {
+    transform: translateX(0%);
+}
+
+.proyecto-overlay h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.proyecto-overlay p {
+    font-size: 14px;
+    line-height: 22px;
+}

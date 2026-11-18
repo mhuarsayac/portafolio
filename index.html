@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miguel Huarsaya | Portafolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/banner.css">
+    <link rel="stylesheet" href="css/parallax.css">
+    <link rel="stylesheet" href="css/galeria.css">
+    <link rel="stylesheet" href="css/tarjetas.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="css/testimonios.css">
+    <link rel="icon" href="">
+</head>
+
+<body>
+
+    <div id="inicio"></div>
+
+    <!--  HEADER  -->
+    <header>
+        <div class="container">
+            <div id="logo">MIGUEL<span>.DEV</span></div>
+
+            <label class="fa-solid fa-bars" id="menu" for="check"></label>
+            <input type="checkbox" name="" id="check">
+
+            <nav class="botonera">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#nosotros">Sobre mí</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#galeria">Proyectos</a></li>
+                    <li><a href="#contactos">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!--  BARRA SOCIAL FIJA  -->
+    <aside id="redes">
+        <div id="facebook">
+            <a class="fa-brands fa-square-facebook" href="https://www.facebook.com" target="_blank"></a>
+        </div>
+        <div id="twitter">
+            <a class="fa-brands fa-square-twitter" href="https://www.twitter.com" target="_blank"></a>
+        </div>
+        <div id="instagram">
+            <a class="fa-brands fa-square-instagram" href="https://instagram.com" target="_blank"></a>
+        </div>
+    </aside>
+
+    <!--  BANNER  -->
+    <div class="banner">
+        <div class="cont-banner">
+            <p class="saludo">✦ Bienvenido a mi portafolio ✦</p>
+            <h1>Miguel Angel<br><span>Huarsaya Carranza</span></h1>
+            <p class="subtitulo">Estudiante de Diseño y Desarrollo de Software · TECSUP</p>
+            <a href="#contactos" class="btn-contactar">Contáctame</a>
+        </div>
+    </div>
+
+    <!--  SOBRE MÍ  -->
+    <div id="nosotros">
+        <div class="sobre-texto">
+            <h2>Sobre <span>mí</span></h2>
+            <p>Hola, soy Miguel, estudiante de segundo ciclo en TECSUP en la carrera de Diseño y Desarrollo de Software.
+                Me apasiona crear soluciones digitales y aprender nuevas tecnologías. Actualmente estoy enfocado en
+                dominar los fundamentos del desarrollo web y la programación.</p>
+            <p>Me caracterizo por ser autodidacta, curioso y comprometido con cada proyecto que asumo. Siempre busco
+                mejorar mis habilidades y contribuir con ideas creativas.</p>
+            <ul class="datos-lista">
+                <li><i class="fa-solid fa-user"></i> Miguel Angel Huarsaya Carranza</li>
+                <li><i class="fa-solid fa-graduation-cap"></i> TECSUP — Diseño y Desarrollo de Software (2do ciclo)</li>
+                <li><i class="fa-solid fa-phone"></i> 941 361 895</li>
+                <li><i class="fa-solid fa-envelope"></i> miguelhuarsayac@gmail.com</li>
+                <li><i class="fa-solid fa-location-dot"></i> Lima, Perú</li>
+            </ul>
+        </div>
+        <div class="sobre-img">
+            <div class="avatar-box">
+                <!-- <i class="fa-solid fa-user"></i> -->
+                <img src="img/gato.jpg" alt="toro inoue">
+            </div>
+        </div>
+    </div>
+
+    <!--  PARALLAX  -->
+    <div class="fondo-parallax">
+        <div class="parallax">
+            <h2>Mi Objetivo</h2>
+            <p>Convertirme en un desarrollador de software completo, capaz de diseñar y construir aplicaciones modernas
+                que resuelvan problemas reales. Cada línea de código es un paso hacia ese camino.</p>
+        </div>
+    </div>
+
+    <!--  HABILIDADES  -->
+    <div id="habilidades">
+        <h2 class="habilidades-titulo">Mis <span>Habilidades</span></h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <i class="fa-brands fa-html5"></i>
+                <h3>HTML5</h3>
+                <p>Estructura semántica de páginas web</p>
+            </div>
+            <div class="skill-card">
+                <i class="fa-brands fa-css3-alt"></i>
+                <h3>CSS3</h3>
+                <p>Flexbox, parallax, mediaqueries</p>
+            </div>
+            <div class="skill-card">
+                <i class="fa-brands fa-js"></i>
+                <h3>JavaScript</h3>
+                <p>Lógica e interactividad web</p>
+            </div>
+            <div class="skill-card">
+                <i class="fa-solid fa-palette"></i>
+                <h3>Diseño UI</h3>
+                <p>Interfaces modernas y responsivas</p>
+            </div>
+            <div class="skill-card">
+                <i class="fa-brands fa-git-alt"></i>
+                <h3>Git</h3>
+                <p>Control de versiones básico</p>
+            </div>
+        </div>
+    </div>
+
+    <!--  PROYECTOS  -->
+    <div id="galeria">
+        <h2 class="galeria-titulo">Mis <span>Proyectos</span></h2>
+        <div class="galeria">
+            <div class="proyecto">
+                <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?w=600&q=80" alt="Proyecto 01">
+                <div class="proyecto-overlay">
+                    <h3>Sitio Web Personal</h3>
+                    <p>Mi primer portafolio web desarrollado con HTML y CSS puro. Diseño responsivo con mediaqueries.
+                    </p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&q=80" alt="Proyecto 02">
+                <div class="proyecto-overlay">
+                    <h3>Landing Page</h3>
+                    <p>Página de aterrizaje con efecto parallax y galería de imágenes usando Flexbox.</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&q=80" alt="Proyecto 03">
+                <div class="proyecto-overlay">
+                    <h3>Diseño Responsivo</h3>
+                    <p>Proyecto de práctica aplicando mediaqueries para móvil, tablet y desktop.</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=600&q=80" alt="Proyecto 04">
+                <div class="proyecto-overlay">
+                    <h3>Próximamente</h3>
+                    <p>Nuevos proyectos en desarrollo. ¡Muy pronto!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--  TARJETAS  -->
+    <div class="fondo-tarjetas">
+        <h2 class="tarjetas-titulo">Lo que me <span>apasiona</span></h2>
+        <div class="tarjetas">
+            <div class="tarjeta">
+                <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600&q=80" alt=""
+                    class="img-tarjeta">
+                <div class="cont-tarjeta">
+                    <h3>Desarrollo Web</h3>
+                    <p>Crear páginas y aplicaciones web que sean bonitas y funcionales desde cero.</p>
+                </div>
+            </div>
+            <div class="tarjeta">
+                <img src="https://images.unsplash.com/photo-1558655146-d09347e92766?w=600&q=80" alt=""
+                    class="img-tarjeta">
+                <div class="cont-tarjeta">
+                    <h3>Diseño de Interfaces</h3>
+                    <p>Diseñar experiencias visuales modernas, limpias y fáciles de usar.</p>
+                </div>
+            </div>
+            <div class="tarjeta">
+                <img src="https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=600&q=80" alt=""
+                    class="img-tarjeta">
+                <div class="cont-tarjeta">
+                    <h3>Programación</h3>
+                    <p>Resolver problemas con lógica y código. Me encanta aprender nuevos lenguajes.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--  CONTACTO  -->
+    <div id="contactos">
+        <h2 class="contactos-titulo">Cont<span>áctame</span></h2>
+        <div class="contactos">
+            <div class="contact-info">
+                <h3>Información de contacto</h3>
+                <div class="info-item">
+                    <i class="fa-solid fa-user"></i>
+                    <span>Miguel Angel Huarsaya Carranza</span>
+                </div>
+                <div class="info-item">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>941 361 895</span>
+                </div>
+                <div class="info-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>miguelhuarsayac@gmail.com</span>
+                </div>
+                <div class="info-item">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <span>TECSUP — Lima, Perú</span>
+                </div>
+                <div class="info-item">
+                    <i class="fa-solid fa-clock"></i>
+                    <span>Disponible para proyectos freelance</span>
+                </div>
+            </div>
+            <div class="contact-form">
+                <h3>Déjame tu mensaje</h3>
+                <form action="/validar" method="post">
+                    <p>Apellidos y Nombres</p>
+                    <input type="text" name="nombres_apellidos" placeholder="Tu nombre completo" required>
+                    <p>Correo Electrónico</p>
+                    <input type="email" name="correo" placeholder="tu@correo.com" required>
+                    <p>Celular</p>
+                    <input type="number" name="celular" placeholder="Tu número de celular" required>
+                    <p>Mensaje</p>
+                    <textarea name="mensaje" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                    <input type="submit" value="Enviar Mensaje">
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--  TESTIMONIOS  -->
+<div class="fondo-testimonios" id="testimonios">
+    <h2 class="testimonios-titulo">Testimonios <span>&</span> Referencias</h2>
+    <p class="testimonios-subtitulo">Lo que dicen quienes me conocen</p>
+    <div class="testimonios-grid">
+
+        <div class="testimonio-card">
+            <p class="texto">Es un alumno muy aplicado que se esfuerza por presentar sus trabajos y trata de esforzarse al máximo en todas las tareas con sus novedades tecnológicas. Hoy está culminando su Portafolio Personal aplicando todo lo aprendido en el curso de Interfaces Web 2026.</p>
+            <div class="autor">
+                <img class="foto-autor" src="img/pallin.jpg" alt="Miguel Pallín">
+                <div class="autor-info">
+                    <p class="nombre">Miguel Pallín</p>
+                    <p class="cargo">Docente · Interfaces Web, TECSUP</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="testimonio-card">
+            <p class="texto">Trabajar junto a Miguel ha sido una gran experiencia. Siempre propone ideas creativas y se adapta rápido a nuevas tecnologías. Es de los pocos que realmente investiga por cuenta propia y lleva soluciones al equipo. Sin duda, alguien con mucho futuro en el desarrollo.</p>
+            <div class="autor">
+                <img class="foto-autor" src="img/testimonio2.jpg" alt="Daniel Ninahuacan">
+                <div class="autor-info">
+                    <p class="nombre">Daniel Ninahuacan</p>
+                    <p class="cargo">Compañero · Diseño y Desarrollo de Software</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="testimonio-card">
+            <p class="texto">Miguel es de esas personas que cuando se compromete con algo, lo da todo. Hemos compartido proyectos en clase y siempre busca que el resultado final quede bien presentado y funcional. Su dedicación al detalle y sus ganas de aprender lo hacen destacar entre todos nosotros.</p>
+            <div class="autor">
+                <img class="foto-autor" src="img/jeanpier.jpg" alt="Jeanpier Zavala">
+                <div class="autor-info">
+                    <p class="nombre">Jeanpier Zavala</p>
+                    <p class="cargo">Compañero · Diseño y Desarrollo de Software</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+    <!--  FOOTER  -->
+    <div class="fondo-footer">
+        <div class="footer">
+            <div class="footer-col">
+                <h3>Miguel.dev</h3>
+                <p>Portafolio personal de Miguel Angel Huarsaya Carranza, estudiante de Diseño y Desarrollo de Software
+                    en TECSUP.</p>
+            </div>
+            <div class="footer-col">
+                <h3>Tecnologías</h3>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3 / Flexbox</li>
+                    <li>JavaScript</li>
+                    <li>Git & GitHub</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Sígueme</h3>
+                <div class="social-footer">
+                    <a href="https://github.com/mhuarsayac" target="_blank"><label class="ico-footer fa-brands fa-github"></label></a>
+                    <a href="https://www.linkedin.com/in/miguel-huarsaya/" target="_blank"><label class="ico-footer fa-brands fa-linkedin"></label></a>
+                    <a href="https://x.com/" target="_blank"><label class="ico-footer fa-brands fa-twitter"></label></a>
+                    <a href="https://www.youtube.com/" target="_blank"><label class="ico-footer fa-brands fa-youtube"></label></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fondo-pies">
+        <div class="pies">
+            <div class="pie">
+                <p>Creado por <span>Miguel Angel Huarsaya Carranza</span></p>
+            </div>
+            <div class="pie">
+                <p>© 2026 · Todos los derechos reservados</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

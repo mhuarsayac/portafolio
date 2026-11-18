@@ -1,0 +1,26 @@
+.fondo-parallax {
+    background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),
+                url('https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1400&q=80') center/cover no-repeat fixed;
+    padding: 70px 0;
+}
+
+.parallax {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+.parallax h2 {
+    font-size: 38px;
+    color: #00e5ff;
+    margin-bottom: 14px;
+}
+
+.parallax p {
+    font-size: 16px;
+    color: #cccccc;
+    line-height: 28px;
+    max-width: 600px;
+    margin: auto;
+}

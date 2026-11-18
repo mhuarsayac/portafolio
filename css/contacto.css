@@ -1,0 +1,110 @@
+#contactos {
+    padding: 60px 0;
+    background: linear-gradient(rgba(0,0,0,0.80), rgba(0,0,0,0.80)),
+                url('https://images.unsplash.com/photo-1518770660439-4636190af475?w=1400&q=80') center/cover no-repeat fixed;
+}
+
+.contactos-titulo {
+    text-align: center;
+    font-size: 36px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.contactos-titulo span { color: #00e5ff; }
+
+.contactos {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.contact-info {
+    width: 40%;
+}
+
+.contact-info h3 {
+    color: #00e5ff;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 18px;
+    color: #cccccc;
+    font-size: 15px;
+}
+
+.info-item i {
+    color: #00e5ff;
+    font-size: 20px;
+    width: 24px;
+}
+
+.contact-form {
+    width: 50%;
+}
+
+.contact-form h3 {
+    color: #00e5ff;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.contact-form p {
+    font-size: 13px;
+    color: #aaa;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="number"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    background: #1a1a2e;
+    border: 1px solid #2a2a4a;
+    color: #ffffff;
+    padding: 10px 14px;
+    font-size: 14px;
+    margin-bottom: 14px;
+}
+
+.contact-form input[type="text"]:focus,
+.contact-form input[type="number"]:focus,
+.contact-form input[type="email"]:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: #00e5ff;
+}
+
+.contact-form textarea {
+    resize: vertical;
+    height: 110px;
+}
+
+.contact-form input[type="submit"] {
+    width: 100%;
+    background: transparent;
+    border: 2px solid #00e5ff;
+    color: #00e5ff;
+    padding: 12px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-form input[type="submit"]:hover {
+    background: #00e5ff;
+    color: #000;
+}
