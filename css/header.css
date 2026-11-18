@@ -11,12 +11,14 @@ header {
 
 .container {
     width: 80%;
+    height: 100%;
     margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 #logo {
-    float: left;
-    line-height: 70px;
     font-size: 22px;
     font-weight: bold;
     color: #00e5ff;

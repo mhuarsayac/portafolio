@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="css/tarjetas.css">
     <link rel="stylesheet" href="css/contacto.css">
     <link rel="stylesheet" href="css/testimonios.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <link rel="icon" href="">
 </head>
 
@@ -28,10 +29,10 @@
         <div class="container">
             <div id="logo">MIGUEL<span>.DEV</span></div>
 
-            <label class="fa-solid fa-bars" id="menu" for="check"></label>
-            <input type="checkbox" name="" id="check">
+            <button type="button" id="menu" class="fa-solid fa-bars" aria-label="Abrir menú"
+                aria-expanded="false" aria-controls="botonera"></button>
 
-            <nav class="botonera">
+            <nav class="botonera" id="botonera">
                 <ul>
                     <li><a href="#inicio">Inicio</a></li>
                     <li><a href="#nosotros">Sobre mí</a></li>
@@ -323,6 +324,7 @@
         </div>
     </div>
 
+    <script src="js/menu.js"></script>
 </body>
 
 </html>

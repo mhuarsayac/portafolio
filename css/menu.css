@@ -1,14 +1,18 @@
-#menu, #check {
+/* Botón hamburguesa: oculto en escritorio */
+#menu {
     display: none;
+    background: none;
+    border: 0;
+    color: #00e5ff;
+    font-size: 26px;
+    width: 44px;
+    height: 44px;
+    cursor: pointer;
 }
 
-#check:checked ~ .botonera {
-    left: 0%;
-    transition: 0.5s ease-out;
-}
-
-.botonera {
-    float: right;
+#menu:focus-visible {
+    outline: 2px solid #00e5ff;
+    outline-offset: 2px;
 }
 
 .botonera ul {

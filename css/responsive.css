@@ -1,0 +1,101 @@
+/* =========================================================
+   RESPONSIVE — se carga al final para ganar a los demás CSS
+   ========================================================= */
+
+/* Tablets */
+@media only screen and (max-width: 980px) {
+    .container { width: 90%; }
+
+    /* Menú hamburguesa */
+    #menu { display: block; }
+
+    .botonera {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background: #0a0a14;
+        border-bottom: 2px solid #00e5ff;
+        max-height: 0;
+        overflow: hidden;
+        visibility: hidden;
+        transition: max-height 0.4s ease-out, visibility 0.4s;
+    }
+
+    .botonera.abierto {
+        max-height: 400px;
+        visibility: visible;
+    }
+
+    .botonera ul { flex-direction: column; }
+
+    .botonera li + li { border-top: 1px solid #1e1e30; }
+
+    .botonera a {
+        padding: 16px 5%;
+        font-size: 14px;
+    }
+
+    .cont-banner h1 { font-size: 38px; }
+
+    #nosotros,
+    .parallax,
+    .skills-grid,
+    .galeria,
+    .tarjetas,
+    .contactos,
+    .footer,
+    .pies { width: 90%; }
+
+    .sobre-texto,
+    .sobre-img { width: 100%; }
+
+    /* Contacto: una columna */
+    .contact-info,
+    .contact-form { width: 100%; }
+
+    /* El fondo fixed falla en móviles/tablets */
+    #contactos,
+    .fondo-parallax { background-attachment: scroll; }
+}
+
+/* Celulares */
+@media only screen and (max-width: 480px) {
+    .container { width: 94%; }
+    #logo { font-size: 19px; }
+
+    .cont-banner h1 { font-size: 28px; }
+    .cont-banner .subtitulo { font-size: 15px; }
+
+    #nosotros,
+    .parallax,
+    .skills-grid,
+    .galeria,
+    .tarjetas,
+    .contactos,
+    .footer,
+    .pies { width: 94%; }
+
+    /* Títulos de sección más chicos para que no se corten */
+    .habilidades-titulo,
+    .galeria-titulo,
+    .tarjetas-titulo,
+    .contactos-titulo,
+    .sobre-texto h2 { font-size: 28px; }
+
+    .skill-card,
+    .proyecto,
+    .tarjeta { width: 100%; }
+
+    .contactos { gap: 40px; }
+    .info-item { font-size: 14px; align-items: flex-start; }
+    .info-item span { overflow-wrap: anywhere; }
+
+    .footer-col { width: 100%; text-align: center; }
+    .social-footer { justify-content: center; }
+
+    .pies { flex-direction: column; gap: 8px; }
+    .pie { width: 100%; text-align: center; }
+
+    #redes { display: none; }
+}
